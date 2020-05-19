@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100cm" height="100cm" viewBox="200 200 1800 1250" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <line class="DEFAULT-0" id="SvgjsLine1013" style="pointer-events: all;" stroke="#000000" stroke-width="1" x1="537.246" y1="223.993" x2="1828.99" y2="1259.75" />
+  <line class="DEFAULT-0" id="SvgjsLine1017" style="pointer-events: all;" stroke="#000000" stroke-width="1" x1="1808.78" y1="304.832" x2="293.043" y2="1418.06" />
+  <text class="newComment svgComment DEFAULT-0" id="SvgjsText1021" font-family="Helvetica, Arial, sans-serif" transform="matrix(1 0 0 1 0 0)" x="1049.23" y="221.0843" value="Tôi đi tìm tôi">
+    <tspan id="SvgjsTspan1022" x="1049.23" dy="20.8">Earth</tspan>
+  </text>
+  <rect class="textDraw DEFAULT-0" id="SvgjsRect1028" transform="matrix(1 0 0 1 0 0)" x="1251.33" y="404.91" width="95.5" height="26.1" />
+  <text class="DEFAULT-0" id="SvgjsText1026" font-family="Times New Roman" font-size="18" fill="black" transform="matrix(1 0 0 1 0 0)" x="1251.3286" y="404.1977">
+    <tspan id="SvgjsTspan1027" x="1251.3286" dy="23.4">Tôi đi tìm tôi</tspan>
+  </text>
+  <text class="DEFAULT-0" id="SvgjsText1029" font-family="Helvetica, Arial, sans-serif" x="1264.8019" y="421.0392">
+    <tspan id="SvgjsTspan1030" x="1264.8019" dy="20.8" />
+  </text>
+</svg>
