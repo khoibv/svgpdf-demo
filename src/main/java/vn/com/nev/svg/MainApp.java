@@ -7,9 +7,9 @@ import org.apache.batik.transcoder.TranscoderException;
 public class MainApp {
 
 
-  private static final String INPUT_PDF = "input/svg1.pdf";
+  private static final String INPUT_PDF = "input/input.pdf";
 //  private static final String INPUT_SVG = "input/sample.svg";
-    private static final String INPUT_SVG = "input/draw.svg";
+    private static final String INPUT_SVG = "input/annotation.svg";
   private static final String OUTPUT_PDF = "output/svgpdf.pdf";
 
   /**

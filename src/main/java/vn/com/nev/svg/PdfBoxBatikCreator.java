@@ -44,7 +44,7 @@ public class PdfBoxBatikCreator {
 
       try (PDPageContentStream contentStream = new PDPageContentStream(doc, page, AppendMode.APPEND,
           true, true)) {
-        contentStream.saveGraphicsState();
+//        contentStream.saveGraphicsState();
         PDExtendedGraphicsState pdExtGfxState = new PDExtendedGraphicsState();
         pdExtGfxState.getCOSObject().setItem(COSName.BM,
             COSName.MULTIPLY); // pdExtGfxState.setBlendMode(BlendMode.MULTIPLY) doesn't work yet, maybe in later version
@@ -57,9 +57,9 @@ public class PdfBoxBatikCreator {
 
         float scale = 1.f;
         contentStream
-            .drawImage(pdImage, 20, 20, pdImage.getWidth() * scale, pdImage.getHeight() * scale);
+            .drawImage(pdImage, 0, 0, pdImage.getWidth() * scale, pdImage.getHeight() * scale);
 
-        contentStream.restoreGraphicsState();
+//        contentStream.restoreGraphicsState();
       }
       doc.save(outputPdf);
     }
@@ -72,8 +72,8 @@ public class PdfBoxBatikCreator {
     TranscoderOutput transcoderOutput = new TranscoderOutput(resultByteStream);
 
     PNGTranscoder pngTranscoder = new PNGTranscoder();
-    pngTranscoder.addTranscodingHint(SVGAbstractTranscoder.KEY_HEIGHT, 256f);
-    pngTranscoder.addTranscodingHint(SVGAbstractTranscoder.KEY_WIDTH, 256f);
+    pngTranscoder.addTranscodingHint(SVGAbstractTranscoder.KEY_HEIGHT, 1657f);
+    pngTranscoder.addTranscodingHint(SVGAbstractTranscoder.KEY_WIDTH, 2330f);
     pngTranscoder.transcode(transcoderInput, transcoderOutput);
 
     resultByteStream.flush();
